@@ -53,6 +53,7 @@
 				Force Call Exit<br>
 				GK Requested DNC – multiple calls<br>
 				GK Requested DNC – additional information required<br>
+				GK Requested DNC – incorrect information (example: Person left, no one by that name, wrong number etc)<br>
 				GK Requested DNC – Other<br>
 				Revealed correct campaign details to the Prospect<br>
 				Prospect requested DNC<br>
@@ -93,13 +94,24 @@
 			<p>Through IVR, got live voice of RPC who said Hello (Male)<br>
 				Through IVR, got live voice of RPC who said Hello (Female)<br>
 				Through IVR, got live voice of RPC who said company name (Male)<br>
-				Through IVR, got live voice of RPC who said company name (Female) </p><br>
-			<h4><span id="note">Note for information not confirmed</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="dispositions">(Disposition – Not Available)</span></h4>
+				Through IVR, got live voice of RPC who said company name (Female) </p>
+
+				<p id="foreign_language_ivr_yellow">In case there are multiple numbers and the agent conducts a successful graceful exit on any one of the numbers agent should mention the telephone number on which the graceful exit was conducted along with the way the prospect has answered the call. 
+					<span id="foreign_language_ivr_green"><br>Example:                                                
+					Tel1 - +16874235893                                             
+					Tel2 - +15194789664                                             
+					(Agent conducted the graceful exit on Tel2 - +15194789664)                                     
+					<br>												  
+					Agent's Note:   +15194789664 - RPC answered directly with Hello (Male)</span></p><br
+			><span id="note">Note for information not confirmed</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="dispositions">(Disposition – Not Available)</span></h4>
 			<p><span>GK/Person said no one by that name and hung-up before confirming any other details</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="dispositions">(2nd Attempt – Disposition changes to Research Error)</span><br>
 				<span>GK/Person said wrong number and hung-up before confirming any other details.</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="dispositions">(2nd Attempt – Disposition changes to Wrong Number Remove)</span>
 			</p><br>
 			<h4><span id="note">Note for RPC Deceased</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="dispositions">(Disposition – Research Error)</span></h4>
 			<p><span>RPC Deceased</span>
+			</p><br>
+			<h4><span id="note">Note for Initials in First Name (M. Smith), Direct Voicemail</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="dispositions">(Disposition – Direct Number)</span></h4>
+			<p><span>DM’S FIRST NAME IS -</span>
 			</p><br>
 			<h4><span id="note">Note for Foreign Language IVR</span>&nbsp;&nbsp;&nbsp;<span id="dispositions">(Disposition – Voicemail)<br>
 				</span></h4>
